@@ -1,3 +1,8 @@
+#! /user/bin/env python
+
+"""This code encrypts a string entered by user by shifting it forward by a number of positions entered by user.
+The letters' case and all non-alphabetical characters remain unchanged."""
+
 def ceasar_cipher (string,shift):
 
     while str(shift).isdigit() == False or int(shift) not in range(1,26):
