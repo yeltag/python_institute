@@ -1,3 +1,5 @@
+""" This code checks if two strings are anagrams.  The lettercase is ignored"""
+
 def anagram (string1, string2):
     string1 = string1.lower()
     string2 = string2.lower()
