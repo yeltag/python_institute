@@ -1,3 +1,4 @@
+#! /user/bin/env python
 """ This code checks if two strings are anagrams.  The lettercase is ignored"""
 
 def anagram (string1, string2):
